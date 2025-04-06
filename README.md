@@ -1,3 +1,5 @@
+Author - Damon Duffy 34144772
+
 ## 1\. Launch an EC2 Instance
 
 Creating the EC2 instance to host the web server on.
