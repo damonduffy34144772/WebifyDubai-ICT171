@@ -129,7 +129,7 @@ HTML Form (inquiry.html)
 
 &lt;/form&gt;
 
-## PHP Script (send.php)
+## 10\. PHP Script (send.php)
 
 The PHP script that allows user input into the inquiry form.
 
@@ -192,3 +192,8 @@ echo "&lt;h1&gt;Invalid request&lt;/h1&gt;";
 }
 
 ?>
+
+## 11\. Script Explanation
+
+The send.php script handles and allows visitors of WebifyDubai to use the form submission. The script allows users to input their name, email and message and click a button to submit. The script will then capture the data using the POST method. After the data has been captured, it uses HTML special chars to sanitize the input to prevent cross-site scripting attacks, and it formats the data into a readable email. The script uses PHP’s mail() function to send the processed data as an email to the specified recipient email address. The script will show the user a successful confirmation or failure message if there is an issue.
+
